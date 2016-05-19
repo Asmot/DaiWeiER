@@ -1,10 +1,14 @@
 @CHARSET "UTF-8";
+body {
+    text-align:center
+}
 #mainBody {
     background: url("./data/firstpage2.jpg");
+    width: 1224px;
 	height:768px;
   	padding-top: 552px;
-	padding-left: 244px;
-	background-repeat:no-repeat  50% 50%; 
+	background-repeat:no-repeat; 
+    margin: 0 auto;
 	
 }
 h1 {    
@@ -24,7 +28,7 @@ h1 {
 }
 #gallery ul{
     /* This position the ul content in the middle of the gallery*/
-    margin-left:-30px; 
+   
     }
 #gallery ul li {
     /* In order to create the proper effect with hover we should use display inline-table
@@ -38,8 +42,8 @@ h1 {
     opacity:0;
     visibility:hidden; 
     position:absolute; 
-    margin-top:-10px; 
-    margin-left:-90px; 
+    margin-top:-88px; 
+    margin-left:-50px; 
    
 }
 #gallery ul li .mini {
@@ -54,9 +58,10 @@ h1 {
 #gallery ul li:hover .pic {
     /* width and height is how much the picture is going to growth with the effect */
     width:100px; 
-    height:120px;
+    height:140px;
     opacity:1; 
     visibility:visible; 
     float:right;
 }
+
  

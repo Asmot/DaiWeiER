@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    /* font-properties */
+    font-family: myfont;
+    src:url('second/myfont.ttf');
+}
+
+body {
+    text-align:center
+}
+#mainBody {
+    width: 1224px;
+	height:2490px;
+	background-repeat:no-repeat; 
+    margin: 0 auto;
+	
+}
+
+#back_a {
+    margin-left: -800px;
+}
+
+#nav {
+    position: relative;
+    background-color: #6CF;
+}
+#nav #menu {
+    list-style-type: none;
+   
+    margin-left: 900px;
+
+}
+#nav #menu li {
+    margin-top: 65px;
+    margin-left: -10px;
+    background: url(./second/more.png);
+    float: left;
+    padding-left: 20px;
+    position: relative;
+    line-height: 88px;
+    width: 288px;
+    height: 88px;
+}
+#nav #menu li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+#nav #menu li:hover #sub {
+    background-color: #B5EDFF;
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    visibility:visible; 
+}
+#nav #menu li #sub {
+    background-color: #B5EDFF;
+    list-style-type: none;
+    position: absolute;
+    padding: 0px;
+    visibility:hidden; 
+}
+#nav #menu li #sub li {
+    background: url(./second/itembg.png);
+    line-height: 25px;
+    height: 25px;
+    width: 288px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    padding: 0px;
+    position: relative;
+}
+#nav #menu li #sub li a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    height: 25px;
+    width: 288px;
+    display: block;
+    font-family: myfont;
+    line-height: 25px;
+    font-size: 22px;
+}
+#nav #menu li #sub li a:hover {
+    background-color: #3F6;
+}
+
+ 
