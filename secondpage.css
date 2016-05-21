@@ -2,26 +2,29 @@
 
 @font-face {
     /* font-properties */
-    font-family: myfont;
-    src:url('second/myfont.ttf') format('truetype');
+    font-family: 'myfont';
+    src:url('./font/MFDianHei_Noncommercial-Thin.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+
 
 body {
     text-align:center
 }
 
-
 #back_a {
 
     left: 100px;
     margin-top: 65px;
-    margin-left: 38px;
+    margin-left: 42px;
     float: left;
    
 }
 
 #nav {
-    margin-top: 65px;;
+    margin-top: 65px;
     margin-left: 455px;
     float: left;
     height: 0px;
@@ -94,7 +97,7 @@ body {
     height: 60px;
     width: 284px;
     display: block;
-    font-family: myfont;
+    font-family: 'myfont';
     font-size: 22px;
     color: #000000;
 }
