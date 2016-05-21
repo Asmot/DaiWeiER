@@ -20,8 +20,8 @@ body {
     margin-top: 65px;
     margin-left: 42px;
     float: left;
-   
 }
+
 
 #nav {
     margin-top: 65px;
@@ -74,17 +74,7 @@ body {
     background: url(./second/gengduou_hover.png);
 }
 #menu li #sub {
-    width: 284px;
-    height: 571px;
-    margin-left: -31px;
-    margin-top: -20px;
-    list-style-type: none;
-    position: absolute;
-    padding: 0px;
-    padding-top: 84px;
-    padding-bottom: 10px;
     visibility:hidden; 
-    background: url(./second/gengduou_hover.png);
 }
 #menu li #sub li {
     line-height: 60px;

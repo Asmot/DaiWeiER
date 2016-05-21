@@ -4,10 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <link href="daohang.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	function hover(element) {
+	    element.setAttribute('src', 'second/back_hover.png');
+	}
+	function unhover(element) {
+	    element.setAttribute('src', 'second/back.png');
+	}
+</script>
 </head>
 <body >
 
-<a href="./index.html" id="back_a" target="_top"> <img src="second/back.png" /></a>
+<a href="./index.html" id="back_a" target="_top"> <img src="second/back.png" onmouseover="hover(this);" onmouseout="unhover(this);" /> </a>
 	<div id="nav">
 		<ul id="menu">
 			<li id="moreli"><a href="#"></a>
